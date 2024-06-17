@@ -1,0 +1,60 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.trophy {
+    width: 200px; /* Ajuste conforme necessário */
+    height: 200px; /* Ajuste conforme necessário */
+    background-color: #f0f0f0; /* Cor de fundo do troféu */
+    /* Adicione estilos para a imagem do troféu, como background-image, background-size, etc. */
+}
+
+.achievements {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px; /* Adicionando margem à direita para separar as caixas */
+}
+
+.achievement {
+    width: 100px; /* Ajuste conforme necessário */
+    height: 100px; /* Ajuste conforme necessário */
+    margin: 16px;
+    background-color: #ccc; /* Cor de fundo das caixas */
+    border: 1px dashed #888; /* Adicionando borda tracejada */
+}
+
+    .achievement img {
+        width: 100%; /* Garante que a imagem preencha totalmente a caixa de conquista */
+        height: 100%; /* Garante que a imagem preencha totalmente a caixa de conquista */
+        object-fit: center; /* Faz com que a imagem mantenha sua proporção e preencha a caixa inteira */
+    }
+
+.programming-languages {
+    margin-top: 20px; /* Espaçamento superior para separar das conquistas */
+    text-align: right; /* Centraliza os spans */
+}
+
+    .programming-languages span {
+        display: inline-block;
+        width: 55px; /* Ajuste conforme necessário */
+        height: 60px; /* Ajuste conforme necessário */
+        margin-right: 55px;
+        background-color: #ccc; /* Cor de fundo dos campos de linguagens de programação */
+        margin-bottom: 10px; /* Espaçamento inferior entre os campos */
+        border: 1px dashed #888;
+    }
+
+    .programming-languages img {
+        width: 100%; /* Garante que a imagem preencha totalmente a caixa */
+        height: 100%; /* Garante que a imagem preencha totalmente a caixa */
+        object-fit: cover; /* Faz com que a imagem mantenha sua proporção e preencha a caixa inteira */
+    }
